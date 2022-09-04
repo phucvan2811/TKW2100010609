@@ -27,170 +27,33 @@
             clear: both
         }
     </style>
+    <link rel="stylesheet" href="public/css/phanthan.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
 </head>
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
+    <div id="menu">
+        <link rel="stylesheet" href="public/css/memu.css">
+        <div id="header">
+            <a href="index.html" id="logo">
+                <img src="public/images/anh2.png" alt="">
+            </a>
+            <ul id="main_menu">
+                <li><a href="Champion.html">Các champion khác</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100007900636447">Liên Hệ</a></li>
 
-        * {
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            line-height: 1.15;
-            color: #111;
-            background-color: aqua;
-        }
-
-        #wrapper {
-            max-width: 1170px;
-            margin: 0 auto;
-        }
-
-        .headline {
-            text-align: center;
-            margin: 40px 0px;
-        }
-
-        h2 {
-            font-size: 40px;
-            color: #bebebe;
-            padding: 10px 20px;
-            text-transform: uppercase;
-            border: 3px solid #ff0000;
-            display: inline-block;
-            color: #555;
-            font-weight: 600;
-        }
-
-        ul.products {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-            ul.products li {
-                flex-basis: 12.7%;
-                padding-left: 15px;
-                padding-right: 15px;
-                box-sizing: border-box;
-                margin-bottom: 30px;
-            }
-
-                ul.products li img {
-                    max-width: 100%;
-                    height: auto;
-                }
-
-                ul.products li .product-top {
-                    position: relative;
-                    overflow: hidden;
-                }
-
-                    ul.products li .product-top .product-thumb {
-                        display: block;
-                    }
-
-                ul.products li:hover .product-top .product-thumb img {
-                    filter: opacity(80%);
-                }
-
-                ul.products li .product-top .product-thumb img {
-                    display: block;
-                }
-
-                ul.products li .product-top a.buy-now {
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    text-align: center;
-                    display: block;
-                    background-color: #446084;
-                    color: #fff;
-                    padding: 10px 0px;
-                    position: absolute;
-                    bottom: -36px;
-                    width: 100%;
-                    transition: 0.25s ease-in-out;
-                    opacity: 0.85;
-                }
-
-                ul.products li:hover a.buy-now {
-                    bottom: 0px;
-                }
-
-                ul.products li .product-info {
-                    padding: 10px 0px;
-                }
-
-                    ul.products li .product-info a {
-                        display: block;
-                        text-decoration: none;
-                    }
-
-                        ul.products li .product-info a.product-cat {
-                            font-size: 11px;
-                            text-transform: uppercase;
-                            color: #9e9e9e;
-                            padding: 3px 0px;
-                        }
-
-                        ul.products li .product-info a.product-name {
-                            color: #334867;
-                            padding: 3px 0px;
-                        }
-
-                    ul.products li .product-info .product-price {
-                        color: #111;
-                        padding: 2px 0px;
-                        font-weight: 600;
-                    }
-
-        .button {
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-
-        .button1 {
-            background-color: #4CAF50;
-        }
-
-        .button2 {
-            background-color: #008CBA;
-        }
-        /* Green */
-
-    </style>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Đồ án Thiết kế Web</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="champion.html">Tổng hợp tướng đtcl mùa 7</a></li>
-              
 
             </ul>
+            <div class="clearfix"></div>
         </div>
-    </nav>
+    </div>
+
+
 
     <div id="wrapper">
         <div class="headline">
             <h2>Rồng Thần Teamfight Tactics</h2>
-            <p>Kích hoạt 3 mốc tộc đặc trưng được đánh dấu và cực khỏe. Nhưng bù lại sẽ chiếm 2 vị trí trong đội hình. Rồng Thần được cộng thêm 600 Máu Tối Đa.</p>
+            <h5>Kích hoạt 3 mốc tộc đặc trưng được đánh dấu và cực khỏe. Nhưng bù lại sẽ chiếm 2 vị trí trong đội hình. Rồng Thần được cộng thêm 600 Máu Tối Đa.</h5>
         </div>
 
         <ul class="products">
@@ -198,7 +61,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/aoshin.png" alt="Aoshin.html">
+                            <img src="public/images/aoshin.png" alt="Aoshin.html">
                         </a>
                         <a href="Aoshin.html" class="buy-now">Chi tiết</a>
 
@@ -214,7 +77,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/aurelionsol.png" alt="Aurelion.html">
+                            <img src="public/images/aurelionsol.png" alt="Aurelion.html">
                         </a>
                         <a href="Aurelion.html" class="buy-now">Chi tiết</a>
 
@@ -230,7 +93,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/daeja.png" alt="Daeja.html">
+                            <img src="public/images/daeja.png" alt="Daeja.html">
                         </a>
                         <a href="Daeja.html" class="buy-now">Chi tiết</a>
 
@@ -246,7 +109,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/idas.png" alt="Idas.html">
+                            <img src="public/images/idas.png" alt="Idas.html">
                         </a>
                         <a href="Idas.html" class="buy-now">Chi tiết</a>
 
@@ -262,7 +125,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/shiohyu.png" alt="">
+                            <img src="public/images/shiohyu.png" alt="">
                         </a>
                         <a href="ShiOYu.html" class="buy-now">Chi tiết</a>
 
@@ -278,7 +141,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="Shyvana.html" class="product-thumb">
-                            <img src="images/shyvana.png" alt="">
+                            <img src="public/images/shyvana.png" alt="">
                         </a>
                         <a href="Shyvana.html" class="buy-now">Chi tiết</a>
 
@@ -295,7 +158,7 @@
                 <div class="product-item">
                     <div class="product-top">
                         <a href="" class="product-thumb">
-                            <img src="images/syfen.png" alt="">
+                            <img src="public/images/syfen.png" alt="">
                         </a>
                         <a href="Syfen.html" class="buy-now">Chi tiết</a>
 
@@ -323,7 +186,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/syfen.png" alt="">
+                                <img src="public/images/syfen.png" alt="">
                             </a>
                             <a href="Syfen.html" class="buy-now">Chi tiết</a>
 
@@ -339,7 +202,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/shiohyu.png" alt="">
+                                <img src="public/images/shiohyu.png" alt="">
                             </a>
                             <a href="ShiOYu.html" class="buy-now">Chi tiết</a>
 
@@ -356,7 +219,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/idas.png" alt="">
+                                <img src="public/images/idas.png" alt="">
                             </a>
                             <a href="Idas.html" class="buy-now">Chi tiết</a>
 
@@ -372,7 +235,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/daeja.png" alt="">
+                                <img src="public/images/daeja.png" alt="">
                             </a>
                             <a href="Daeja.html" class="buy-now">Chi tiết</a>
 
@@ -398,7 +261,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/aoshin.png" alt="">
+                                <img src="public/images/aoshin.png" alt="">
                             </a>
                             <a href="AoShin.html" class="buy-now">Chi tiết</a>
 
@@ -414,7 +277,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="" class="product-thumb">
-                                <img src="images/aurelionsol.png" alt="">
+                                <img src="public/images/aurelionsol.png" alt="">
                             </a>
                             <a href="Aurelion.html" class="buy-now">Chi tiết</a>
 
@@ -430,7 +293,7 @@
                     <div class="product-item">
                         <div class="product-top">
                             <a href="Shyvana.html" class="product-thumb">
-                                <img src="images/shyvana.png" alt="">
+                                <img src="public/images/shyvana.png" alt="">
                             </a>
                             <a href="Shyvana.html" class="buy-now">Chi tiết</a>
 
@@ -444,8 +307,24 @@
                 </li>
             </ul>
         </div>
-    </div>
+        <div>
+            <style>
+                .list-social a {
+                    font-size: 60px;
+                    color: #333;
+                }
+            </style>
+            <div class="list-social">
+                <a href="https://www.facebook.com/profile.php?id=100007900636447"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UC4nSiRAmTBjxLXRYWrZ-WSQ/videos"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
+            </div>
 
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2279.949624313561!2d106.6940241818173!3d10.85979228211715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x991a2f4252c4eaa2!2sMoLet%20Coffee%20NTT%20University!5e0!3m2!1svi!2s!4v1662247032195!5m2!1svi!2s" width="900" height="400" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
 
 </body>
 </html>
